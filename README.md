@@ -8,15 +8,15 @@ Here we demonstrate an example of applying PhenoDrive to *Lymnaea stagnalis*, a 
 
 The shape of this growth curve is largely preserved across different temperatures, with the entirety of development effectively squeezed into shorter timespans with increasing temperature, up until an optimum temperature whereafter the thermal stress of elevated temperature hinders embryonic development eventually leading to mortality.
 
-insert growth curve here across two temperatures
+![image](https://github.com/EmbryoPhenomics/PhenoDrive/blob/main/assets/growth_curves_two_temperatures.png)
 
 We have characterised *L. stagnalis* embryonic development in relation to constant temperatures - where temperature is held at a fixed setpoint for the duration of the experiment - across a range of temperatures including the thermal optimum but also the upper critical thermal limits. Integrating these responses together produces the following heatmap:
 
-insert heatmap image here
+![image](https://github.com/EmbryoPhenomics/PhenoDrive/blob/main/assets/growth_prediction_22.5C.png)
 
 By integrating developmental rate and growth rate as a function of temperature, we can produce predictions for how long an embryo is likely to take to develop but also how much it will grow. We can therefore create forecasts for embryonic growth and validate those with empirical tests:
 
-insert validation at a specific temperature
+![image](https://github.com/EmbryoPhenomics/PhenoDrive/blob/main/assets/growth_rate_landscape.png)
 
 By measuring growth in real-time as an embryo develops, we can produce forecasts dynamically and optimise towards the forecast most aligned with a particular objective, in this case maximising growth. Of course, individual variation brings added complexity, in that not all individuals respond the same. However, because PhenoDrive has feedback inherent in it's operation, any changes in phenotypic response can inform the environment created, as seen in the following experiment whereby an individual's growth rate began to decline and the system compensated by reducing temperature:
 
