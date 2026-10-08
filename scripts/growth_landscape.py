@@ -194,7 +194,7 @@ D_mesh, T_mesh = np.meshgrid(
 )
 
 # Plot
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(dpi=150)
 
 landscape = ax.pcolormesh(
     D_mesh,
