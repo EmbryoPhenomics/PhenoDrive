@@ -142,7 +142,7 @@ growth_coeff = new_scale(growth_coeff, 0, 1) * 1.75
 
 
 # Test on a particular setpoint
-fig, (ax1, ax2) = plt.subplots(1, 2)
+fig, (ax1, ax2) = plt.subplots(1, 2, dpi=150)
 
 setpoint = 25
 

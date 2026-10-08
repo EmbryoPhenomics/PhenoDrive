@@ -18,7 +18,7 @@ growth_data.temp = [float(float(t[:-1])) for t in growth_data.temp]
 
 normalized_growth_data = {k: [] for k in growth_data.keys()[1:]}
 
-fig, (ax1, ax2) = plt.subplots(1, 2)
+fig, (ax1, ax2) = plt.subplots(1, 2, dpi=150)
 
 for t, temp in growth_data.groupby('temp'):
     if t != 15.0 and t != 25:
